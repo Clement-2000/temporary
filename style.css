@@ -1,0 +1,49 @@
+:root {
+    --bulma-primary-h: 186deg;
+    --bulma-primary-s: 100%;
+    --bulma-primary-l: 58%;
+
+    --bulma-link-h: 204deg;
+    --bulma-link-s: 96%;
+    --bulma-link-l: 50%;
+
+    --bulma-info-h: 200deg;
+    --bulma-info-s: 74%;
+    --bulma-info-l: 74%;
+
+    --bulma-success-h: 129deg;
+    --bulma-success-s: 80%;
+    --bulma-success-l: 56%;
+
+    --bulma-warning-h: 39deg;
+    --bulma-danger-h: 0deg;
+    --bulma-danger-l: 58%;
+}
+
+.section {
+    --bulma-section-padding: 4.5rem 1.5rem;
+    --bulma-section-padding-medium: 4.5rem 9rem;
+}
+
+.media-container {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.has-ratio {
+    object-fit: cover;
+}
+
+.box {
+    border: solid 1px black;
+}
+
+.panel-heading {
+    --bulma-content-block-margin-bottom: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
